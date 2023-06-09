@@ -1,12 +1,22 @@
+@font-face{
+  font-family: 'Trattatello';
+  src: url('style/font/Trattatello.ttf') format('ttf');
+}
+
 html{
   background-color: #371E1E;
+  font-family: 'Trattatelo';
 }
 
 body{
   margin-top: 0;
   margin-left: 2rem;
   margin-right: 2rem;
+  min-height: 100vh;
+  max-height: fit-content;
   background: linear-gradient(180deg, #340000 0%, rgba(176, 0, 0, 0.66) 100%);
+  font-family: 'Trattatello', courant;
+  color: #FFF;
 }
 
 .navbar{
@@ -21,6 +31,7 @@ body{
   width: auto;
 }
 .navlink{
+  margin-left: 1rem;
   text-decoration: none;
   color: #F53855;
   font-style: normal;
@@ -30,4 +41,74 @@ body{
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.container{
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+article{
+  margin: 2rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #1F0000 ;
+  width: fit-content;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+figure{
+  margin: 0;
+  width: fit-content;
+}
+
+figcaption{
+  color: #FFF;
+}
+
+.avatar{
+  height: 7rem;
+  width: auto;
+}
+
+.col2{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dragon-name{
+  color: #FFF;
+  font-size: 42px;
+  margin: 0;
+}
+
+.element{
+  font-size: 24px;
+}
+
+.force{
+  font-size: 20px;
+}
+
+.btn-relations{
+  border-radius: 50px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: #FF0000;
+  color: #FFF;
 }
