@@ -1,11 +1,8 @@
-@font-face{
-  font-family: 'Trattatello';
-  src: url('style/font/Trattatello.ttf') format('ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 html{
   background-color: #371E1E;
-  font-family: 'Trattatelo';
+  font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -15,7 +12,7 @@ body{
   min-height: 100vh;
   max-height: fit-content;
   background: linear-gradient(180deg, #340000 0%, rgba(176, 0, 0, 0.66) 100%);
-  font-family: 'Trattatello', courant;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   color: #FFF;
 }
@@ -31,6 +28,11 @@ border: 1px solid #F53855;
 a{
   text-decoration: none;
   color: #FFF;
+}
+
+button {
+  border: none;
+  text-align: center;
 }
 
 .navbar{
@@ -206,6 +208,8 @@ figcaption{
   border-radius: 5px;
   font-size:18px;
   color: #FFF;
+  border: none;
+  text-align: center;
 }
 
 form {
@@ -226,4 +230,8 @@ form {
 
  .form-title {
   margin-bottom: 0;
+ }
+
+ input, label{
+  margin: 1rem;
  }
